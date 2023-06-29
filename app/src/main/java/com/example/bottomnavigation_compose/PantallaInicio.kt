@@ -19,21 +19,6 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun PantallaInicio() {
-    /*Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(color = Color.Blue)
-    ) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .align(Alignment.Center),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Text(text = "Pantalla Inicio", fontSize = 20.sp, color = Color.White)
-        }
-    }*/
     var fecha by remember { mutableStateOf("") }
     var altitud by remember { mutableStateOf("") }
     var profundidad by remember { mutableStateOf("") }
@@ -45,7 +30,7 @@ fun PantallaInicio() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(color = Color.LightGray)
+            .background(color = Color.White)
     )
     Column(
         modifier = Modifier
